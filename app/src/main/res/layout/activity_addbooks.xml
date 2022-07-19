@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="@mipmap/add_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="@string/add_title"
+            android:textSize="22sp"
+            android:textColor="#516D2C"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/usercre"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/no"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/student_no"
+                android:textSize="15dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_studentid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_student_no"
+                android:background="@drawable/editext_selector"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:maxLength="20"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/user"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/student_name"
+                android:layout_marginRight="@dimen/dp_10"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_studentname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_student_name"
+                android:background="@drawable/editext_selector"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:maxLength="20"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="32dp"
+                android:src="@mipmap/major"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="@string/student_major"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/dp_10"
+                android:textColor="#000000"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/et_majoy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_student_major"
+                android:background="@drawable/editext_selector"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:maxLength="20"
+                android:paddingLeft="10dp"
+                android:completionThreshold="0"
+                android:completionHint="选择专业"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/book"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="match_parent"
+                android:text="@string/bar_code"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_booknum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/input_bar_code"
+                android:background="@drawable/editext_selector"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="left|center"
+                android:maxLength="8"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/btn_add"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_selector"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

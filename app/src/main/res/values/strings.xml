@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Children Library</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--英文版 -->
+    <string name="login_title">Welcome to the \nChildren’s Digital Library</string>
+    <string name="login_remember_psw">Remember</string>
+    <string name="login_register">Register</string>
+    <string name="login_login">Login</string>
+    <string name="login_input_account">Please input account</string>
+    <string name="login_input_psw">Please input password</string>
+
+    <string name="register_title">Register User</string>
+    <string name="register_user">User</string>
+    <string name="register_input">Please input username</string>
+    <string name="register_psw">Password</string>
+    <string name="register_input_psw">Please input password</string>
+    <string name="register_sure_psw">Confirm</string>
+    <string name="register_input_sure_psw">Please input password again</string>
+    <string name="register_register">Register</string>
+
+    <string name="main_home">Home</string>
+    <string name="main_book">Item</string>
+    <string name="main_me">My</string>
+
+    <string name="home_title">Select the data operation to perform</string>
+    <string name="home_add">Start New Borrow</string>
+    <string name="home_edit">Edit My Borrow</string>
+    <string name="home_del">Return the Item</string>
+    <string name="home_view">View My Borrowed</string>
+
+    <string name="add_title">Add reader borrowing records</string>
+    <string name="edit_title">Edit reader borrowing records</string>
+    <string name="del_title">Delete reader borrowing records</string>
+
+    <string name="student_no">Item Id</string>
+    <string name="input_student_no">Please input Item Id</string>
+    <string name="student_name">Username</string>
+    <string name="input_student_name">Please input Username</string>
+    <string name="student_major">Item Type</string>
+    <string name="input_student_major">please input item type</string>
+    <string name="bar_code">Barcode</string>
+    <string name="input_bar_code">Please input barcode</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_edit">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_select">Query</string>
+
+    <string name="book_title">Library Item List</string>
+    <string name="book_detail_title">Item Introduce</string>
+
+    <string name="record_title">My borrow information is as follows</string>
+
+    <string name="my_data">My Data</string>
+    <string name="username_unlogin">Hello, User!\nPlease Click Here to Log in First!</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+    <string name="feedback">Feedback</string>
+    <string name="check_for_update">Check for Update</string>
+    <string name="about">About</string>
+    <string name="searching_update">Searching for new version…</string>
+    <string name="no_update">The current APP is the latest version. </string>
+
+    <string name="version">Version 1.0</string>
+    <string name="developer">Developer\nGao Jiaxiang\nSWE1909468</string>
+    <string name="not_fill_all">Please fill in all the fields</string>
+    <string name="feedback_success">We have received your feedback and thank you for your submission!</string>
+    <string name="submit">submit</string>
+    <string name="phone_number_or_email_address">Phone Number or Email Address</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="functional_issue">Functional Issue</string>
+    <string name="comment_or_suggestion">Comment or Suggestion</string>
+    <string name="category">Category</string>
+    <string name="description">Description</string>
+
+
+
+
+
+
+</resources>

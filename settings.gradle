@@ -1,0 +1,2 @@
+include ':app', ':bdvideoplayer'
+rootProject.name = "BookAdminister"

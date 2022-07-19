@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cn.bookadminister">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appcon"
+        android:label="library"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.BookDetailActivity">
+            <intent-filter>
+                <action android:name="com.book.detail"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.UpdateBooksActivity" />
+        <activity android:name=".activity.QueryBooksActivity" />
+        <activity android:name=".activity.DeleteBooksActivity" />
+        <activity android:name=".activity.AddbooksActivity" />
+        <activity android:name=".activity.FeedbackActivity"/>
+        <activity android:name=".activity.AboutActivity"/>
+        <activity android:name=".activity.BaseActivity"/>
+        <activity android:name=".app.RegisterActivity" />
+        <activity android:name=".app.MainActivity" />
+        <activity android:name=".app.LoginActivity" />
+        <activity android:name=".app.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
